@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "mensaje",
+						"type": "string"
+					}
+				],
+				"name": "MensajeActualizado",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getMensaje",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "mensaje_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mensaje",
+						"type": "string"
+					}
+				],
+				"name": "setMensaje",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "evento emitido para actualizacion de mensaje",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/ejercicio1.sol": "Mensaje"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/ejercicio1.sol": {
+			"keccak256": "0x07489cac7338d678314deceefd98ff4d30b3a17115972e9088ad3a4dd7f3bc83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c370cf0510f154211df7ebb4820cedd687774ec8f4dcaade1c670ed7090b19d0",
+				"dweb:/ipfs/QmZadBQv6k8BxJV2jLATQeGYxkT9gDzjitiXXZjG9u5L27"
+			]
+		}
+	},
+	"version": 1
+}
