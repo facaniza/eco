@@ -2,8 +2,8 @@
 pragma solidity ^0.8.26;
 
 /*
- @title Contrato Mensaje
- @author i3arba - 77 Innovation Labs
+ @title Eco!
+ @author Facundo Alejandro Caniza
  @notice Este contrato forma parte del primer proyecto
  del Ethereum Developer Pack
  @custom:security Este es un contrato educativo
