@@ -5,6 +5,23 @@ Es un simulador de eco para todos aquellos que quieran sentir la inmersión de e
 ## Como clonar el repositorio
 1. <b>Clonación via terminal</b>:
 Ejecutar:
-```git clone https://github.com/facaniza/eco.git```
+<br>
+
+```
+git clone https://github.com/facaniza/eco.git
+```
+
+<br>
 El archivo quedará disponible en la carpeta donde se ejecutó el comando
 para abrirlo con editor de código, <b>en este caso se recomienda remix</b>, simplemente se busca la carpeta y se carga en el editor
+
+## Enlace en Etherscan
+En el siguiente enlace puede observar el contrato en el Explorador de Bloques:
+<br>
+---
+
+```
+https://sepolia.etherscan.io/address/0x9e797D06fEdE38FA04759CcB357760A0eC3dC5f7
+```
+
+<br>
